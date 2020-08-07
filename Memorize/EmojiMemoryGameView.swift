@@ -88,6 +88,7 @@ struct CardView : View {
                 }
                     .padding(5)
                     .opacity(0.4)
+                    .transition(.identity)
 
 
                 Text(card.content)
